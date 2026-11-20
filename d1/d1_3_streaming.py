@@ -1,6 +1,6 @@
 """最小示例：LangChain 通过 OpenAI 兼容接口调用模型，配置读取 .env。
 
-运行：uv run 2.py
+运行：uv run d1_3_streaming.py
 
 流式输出
 """

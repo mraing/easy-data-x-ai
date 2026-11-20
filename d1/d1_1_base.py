@@ -1,6 +1,6 @@
 """最小示例：LangChain 通过 OpenAI 兼容接口调用模型，配置读取 .env。
 
-运行：uv run 1.py
+运行：uv run d1_1_base.py
 """
 
 import os
@@ -22,4 +22,4 @@ response = llm.invoke([
     ("user", "什么是 RAG？"),
 ])
 
-print(response.content)
+print(response.content)  # 换行
